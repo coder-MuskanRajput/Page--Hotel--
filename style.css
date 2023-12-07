@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: beige;
+
+}
+.Images{
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1%;
+}
+.Image1{
+    width: 27%;
+    height: 70%;
+    background-color: brown;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.Image2{
+    width: 27%;
+    height: 70%;
+    background-color: brown;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.Image3{
+    width: 27%;
+    height: 70%;
+    background-color: brown;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container>h1{
+    padding-left: 33%;
+    padding-top: 1%;
+    font-size: 50px;
+}
+.container>p{
+    padding-left: 37%;
+    padding-bottom: 3%;
+    color: grey;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1678286769521-b2b656ed3ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1596436889106-be35e843f974?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+.content2{
+    display: flex;
+    
+    align-items: center;
+    
+    padding-top: 3%;
+}
+.part2{
+    padding-left: 14%;
+
+    /* background-color: black; */
+    align-items: center ;
+}
+.arrow1{
+    padding-top: 13%;
+    transform: translateX(26px);
+}
+.arrow2{
+    padding-top: 13%;
+    transform: translateX(-29px);
+}
+.rating{
+    display: flex;
+}
+.review{
+    padding-top: 13%;
+    padding-left: 3%;
+    color: GREY;
+}
+.content1{
+  padding-top: 3%;
+}
+.content3{
+    padding-top: 3%;
+  }
+
+button{
+   border: none;
+}
+.btn{
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
